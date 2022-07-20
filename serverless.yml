@@ -1,0 +1,22 @@
+# serverless.yml
+
+service: express-serverless
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+  stage: dev
+  region: us-east-1
+
+functions:
+  app:
+    handler: index.handler
+    events:
+      - http:
+          method: ANY
+          path: '/'
+      - http:
+          method: ANY
+          path: '/{proxy+}'
+plugins:
+  - serverless-offline
