@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
-    "start:prod": "npx serverless offline start"
+    "start:prod": "npx serverless plugin install -n serverless-offline && npx serverless offline start"
   },
   "keywords": [],
   "author": "",
