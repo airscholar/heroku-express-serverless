@@ -19,6 +19,7 @@ const createTodos = (req, res) => {
     const existingTodo = todos.find(item => item.title === todo.title);
     if (existingTodo) return res.json({ message: 'Todo already exist', data: {} });
 
+    //add todo
     todos.push(todo);
 
     return res.json({
