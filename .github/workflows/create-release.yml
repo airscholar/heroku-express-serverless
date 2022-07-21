@@ -69,3 +69,4 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           prerelease: true
           tag: v${{ steps.get_version.outputs.VERSION }}
+          commit: "testFeatures"
