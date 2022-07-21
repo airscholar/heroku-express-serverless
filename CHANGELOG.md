@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Bump express-serverless version from 0.1.2 to 0.1.3 [\#6](https://github.com/airscholar/heroku-express-serverless/pull/6) ([airscholar](https://github.com/airscholar))
 - Bump express-serverless version from 0.1.1 to 0.1.2 [\#5](https://github.com/airscholar/heroku-express-serverless/pull/5) ([airscholar](https://github.com/airscholar))
 - Bump express-serverless version from 0.1.0 to 0.1.1 [\#4](https://github.com/airscholar/heroku-express-serverless/pull/4) ([airscholar](https://github.com/airscholar))
 - Feature/readme [\#3](https://github.com/airscholar/heroku-express-serverless/pull/3) ([airscholar](https://github.com/airscholar))
