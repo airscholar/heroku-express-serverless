@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
-    "start:prod": "npx serverless plugin install -n serverless-offline && npx serverless offline start"
+    "start:prod": "npx serverless plugin install -n serverless-offline && npx serverless offline start",
+    "release": "release-it"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +18,12 @@
     "uuid": "^8.3.2"
   },
   "devDependencies": {
+    "release-it": "^15.1.3",
     "serverless-offline": "^9.0.0"
+  },
+  "release-it": {
+    "github": {
+      "release": true
+    }
   }
 }
