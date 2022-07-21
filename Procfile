@@ -1,1 +1,1 @@
-web: npm run start:prod
+serverless: serverless offline start
