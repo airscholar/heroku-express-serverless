@@ -9,8 +9,8 @@ app.use(express.json());
 
 app.use('/todos', todosRoute);
 
-app.listen(3000, () => {
-  console.log('app listening on 3000');
+app.listen(process.env.PORT, () => {
+  console.log('app listening on ' + process.env.PORT);
 });
 
 module.exports.handler = serverless(app);
